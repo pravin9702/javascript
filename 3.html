@@ -1,0 +1,16 @@
+<input type="text" id="m1" placeholder="Enter Temp in Degree C" style="width:300px;text-align: right;" />
+
+<button onclick="myfunc()">Enter</button>
+<p  id="x1"></p>
+<script>
+    var myfunc = ()=>{
+        console.log(document.getElementById('m1'));
+        console.log(document.getElementById('m1').value);
+
+        var record = document.getElementById('m1').value;
+        var ans = record*9/5 + 32;
+        console.log(ans);
+
+        document.getElementById('x1').innerHTML = ` ${ans} <sup>o</sup>F`
+    }
+</script>
