@@ -1,0 +1,29 @@
+    <h1 id="m1">Hello World</h1>
+    <h1 id="m2">Hello World 2</h1>
+    
+
+    <button onclick="myfunc()">Enter</button>
+    <script>
+        var myfunc = ()=>{
+            // console.log('TEST');
+            console.log(document);
+            console.log(document.getElementById('m1'));
+            console.log(document.getElementById('m2'));
+
+            user = "Akshay";
+
+            document.getElementById('m1').innerHTML = ` Hello <u>World</u> ${user} `;
+            document.getElementById('m2').innerText = ` Hello <u>World</u> ${user} `;
+
+            document.getElementById('m1').style.border = "1px solid";
+            document.getElementById('m1').style.background = "gray";
+
+            document.getElementById('m2').className = 'xyz';
+        }
+    </script>
+
+    <style>
+        .xyz{
+            background-color: green;
+        }
+    </style>
