@@ -1,11 +1,7 @@
 Remote Origin :
 https://github.com/pravin9702/javascript.git
 
-username:
-pravin9702
 
-emailid : 
-pravinkarande681@gmail.com
 
 1) git init
 
@@ -15,9 +11,9 @@ pravinkarande681@gmail.com
 
 4) git config --global user.name
 
-5) git config --global user.name "pravin9702"
+5) git config --global user.name "yourusername"
 
-6) git config --global user.email "pravinkarande681@gmail.com"
+6) git config --global user.email "youremailid"
 
 7) git config --global user.email
 
